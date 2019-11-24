@@ -8,5 +8,8 @@
     <string name="loading">Loading</string>
     <string name="rePassword">Re enter password</string>
     <string name="already">Already Have Account?</string>
+    <string name="submitwishlist">Submit</string>
+    <string name="insertwihslist">Your wish money</string>
+    <string name="wishlist">Make Your WishList</string>
 
 </resources>
