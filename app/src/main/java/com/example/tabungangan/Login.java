@@ -85,7 +85,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 if (task.isSuccessful()){
                     login.setText(R.string.login);
                     FirebaseUser user = mAuth.getCurrentUser();
-                    Intent intent = new Intent(Login.this,MainActivity.class);
+                    Intent intent = new Intent(Login.this,Wishlist.class);
                     startActivity(intent);
                     finish();
                 }
